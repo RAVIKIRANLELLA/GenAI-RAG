@@ -1,0 +1,7 @@
+boto3
+langchain
+langchain-core
+langchain-community
+pypdf
+faiss-cpu
+langchain-text-splitters
