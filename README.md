@@ -61,3 +61,8 @@ RAG combines retrieval (FAISS) and generation (LLM) for grounded, context-aware 
 Amazon Bedrock provides both embeddings and LLM APIs.
 LangChain orchestrates the pipeline.
 FAISS enables fast similarity search over document chunks.
+
+Summary Diagram
+PDF → Chunks → Embeddings → FAISS Index
+User Question → Retriever (FAISS) → Relevant Chunks
+Prompt (Context + Question) → LLM (Nova Micro) → Answer
